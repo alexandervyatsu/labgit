@@ -24,13 +24,6 @@ public class Replacer {
         return this.content;
     }
 
-    String getTokens() {
-        String tmp = new String();
-        for (String token : this.token_array) {
-            tmp += token + " ";
-        }
-        return tmp;
-    }
 
 
     void setTokens(String tokens) {
