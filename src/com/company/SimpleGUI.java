@@ -72,7 +72,7 @@ public class SimpleGUI extends JFrame {
                         System.out.println("Нельзя прочитать файл для замены или он отсутствует");
                         err.printStackTrace();
                     }
-                    labl1.setText("label1");
+                    labl1.setText(selectedFile.getAbsolutePath());
                     text1.setText(content);
                 }
             }
